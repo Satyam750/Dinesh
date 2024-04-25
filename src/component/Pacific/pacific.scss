@@ -1,0 +1,101 @@
+.pacific{
+    height: 60vh;
+    width: 100%;
+    margin-top: 7vw;
+
+    .pac-container{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        h1{
+            font-family: "Sedan",sans-serif;
+            font-size: 2vw;
+            width: 40vw;
+            margin-left: 2.5vw;
+            margin-bottom: 2vw;
+        }
+        p{
+            font-family: "Poppins",sans-serif;
+            font-size: .9vw;
+            width: 40vw;
+        }
+    }
+    .pac-btn{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: 10vw;
+        button{
+            padding: 1vw;
+            padding-left: 4vw;
+            padding-right: 4vw;
+            border: none;
+            outline: none;
+            background-color: black;
+            color: white;
+            transition: all ease-in-out 200ms;
+            &:hover{
+                background-color: gray;
+                color: black;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:786px) {
+
+
+    .pacific{
+        height: 40vh;
+        width: 100%;
+       margin-top: -6vw;
+        .pac-container{
+    
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            h1{
+                font-family: "Sedan",sans-serif;
+                font-size: 9vw;
+                width: 90vw;
+                margin-left: 10vw;
+                margin-bottom: 6vw;
+            }
+            p{
+                font-family: "Poppins",sans-serif;
+                font-size: 3vw;
+                width: 90vw;
+                margin-left: 2vw;
+            }
+        }
+        .pac-btn{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            margin-top: 15vw;
+            button{
+                padding: 4vw;
+                padding-left: 8vw;
+                padding-right: 8vw;
+                border: none;
+                outline: none;
+                background-color: black;
+                color: white;
+                transition: all ease-in-out 200ms;
+                &:hover{
+                    background-color: gray;
+                    color: black;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+ 
+
+
+}

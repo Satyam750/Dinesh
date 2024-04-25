@@ -1,0 +1,202 @@
+.test{
+    height: 80vh;
+    width: 100%;
+    margin-top: 10vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+
+
+    .nav_main{
+        width: 100%;
+        margin-top: 5vw;
+        display: flex;
+        .nav_left_main{
+              width: 30%;
+              margin-top: 4vw;
+              display: flex; 
+              flex-direction: column;
+              gap: 14vw;
+              h1{
+                font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 20px;
+              }
+              p{
+                
+                font-family: "Poppins", sans-serif;
+                font-weight: 300;
+                font-style: normal;
+                font-size: 13px;
+
+              }
+              .h1-test{
+                margin-top: -7.5vw;
+              
+                font-family: "Sedan",sans-serif;
+                font-size: 2.2vw;
+              }
+
+        }
+        .nav_right_main{
+            width: 70%;
+          
+           
+
+            .swiper {
+                width: 800px;
+                height: 480px;
+              }
+              
+              .swiper-slide {
+                text-align: center;
+                font-size: 18px;
+                background: #fff;
+              
+                /* Center slide text vertically */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+              .swiper-slide img {
+                display: block;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+              }
+
+              .icon{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 1.4vw;
+                cursor: pointer;
+
+                .left-icon{
+                    &:hover{
+                        color: gray;
+                    }
+                }
+                .right-icon{
+                    &:hover{
+                        color: gray;
+                    }
+                }
+              }
+              
+              
+        }
+
+    }
+
+}
+
+
+@media screen and (max-width:786px) {
+
+
+
+  .test{
+    height: 90vh;
+    width: 100%;
+    margin-top: 0vw;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+   
+     overflow: hidden;
+
+    .nav_main{
+        width: 100%;
+        margin-top: 5vw;
+        display: flex;
+        flex-direction: column;
+        .nav_left_main{
+              margin-top: 4vw;
+              display: flex; 
+              flex-direction: column;
+              gap: 6vw;
+              h1{
+                font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 13vw;
+            margin-left: 5vw;
+              }
+              p{
+                
+                font-family: "Poppins", sans-serif;
+                font-weight: 300;
+                font-style: normal;
+                font-size: 3.5vw;
+                width: 70vw;
+                margin-left: 11vw;
+               
+              }
+              .h1-test{
+                margin-top: -7.5vw;
+              
+                font-family: "Sedan",sans-serif;
+                font-size: 2.2vw;
+                display: none;
+              }
+
+        }
+        .nav_right_main{
+            width: 70%;
+          
+           margin-top: 3vw;
+
+            .swiper {
+                width: 95vw;
+                height: 50vh;
+              }
+              
+              .swiper-slide {
+                text-align: center;
+                font-size: 18px;
+                background: #fff;
+              
+                /* Center slide text vertically */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+              .swiper-slide img {
+                display: block;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+              }
+
+              .icon{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 1.4vw;
+                cursor: pointer;
+                margin-left: 10vw;
+
+                .left-icon{
+                    &:hover{
+                        color: gray;
+                    }
+                }
+                .right-icon{
+                  
+                    &:hover{
+                        color: gray;
+                    }
+                }
+              }
+              
+              
+        }
+
+    }
+
+}
+
+
+
+
+}

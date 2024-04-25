@@ -1,0 +1,38 @@
+.home{
+    padding-left: 7vw;
+    padding-right:7vw ;
+   
+    .nav{
+        display: flex;
+        align-items: center;
+        gap: 34vw;
+        
+
+        .nav_1{
+            font-family: "Poppins", sans-serif;
+            font-weight: 600;
+            font-style: normal;
+            font-size: 20px;
+
+        }
+        .nav_2{
+            
+            .nav_ul{
+                display: flex;
+                list-style: none;
+                gap: 5vw;
+                font-family: "Poppins", sans-serif;
+                font-weight: 200;
+                font-style: normal;
+                font-size: 15px;
+               li{
+                &:hover{
+                   color: rgb(182, 205, 93);
+                   cursor: pointer;
+                }
+               }
+            }
+        }
+    }
+   
+}

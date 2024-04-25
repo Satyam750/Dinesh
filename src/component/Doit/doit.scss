@@ -1,0 +1,67 @@
+.doit{
+    height: 100vh;
+    width: 100%;
+    .img_container{
+        position: relative;
+        img{
+            height: 100vh;
+            width: 100%;
+            position: absolute;
+            z-index: -20;
+            object-fit: cover;
+        }
+        .text{
+            position: relative;
+            z-index: 20;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            top: 15vw;
+            font-size: 3vw;
+            font-family: "Sedan",sans-serif;
+            
+        }
+    }
+}
+
+@media screen and (max-width:786px) {
+
+
+    .doit{
+        height: 75vh;
+        width: 100%;
+        padding-left: 1.2vw;
+        padding-right: 1.2vw;
+        overflow: hidden;
+        .img_container{
+            position: relative;
+            img{
+                height: 70vh;
+                width: 98vw;
+                position: absolute;
+                z-index: -20;
+                object-fit: cover;
+                
+            }
+            .text{
+                position: relative;
+                z-index: 20;
+                color: white;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                top: 20vw;
+                font-size: 5vw;
+                font-family: "Sedan",sans-serif;
+                
+            }
+        }
+    }
+ 
+
+
+
+}

@@ -1,0 +1,214 @@
+.front {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    .name-front {
+      position: absolute;
+      top: 7vw;
+      left: 3vw;
+      padding-left: 7vw;
+      padding-right: 7vw;
+      display: flex;
+      flex-direction: column;
+      gap: 10vw;
+
+      .h1-front {
+        color: white;
+        text-align: start;
+        font-family: "Sedan", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2vw;
+      }
+      button{
+        
+        background-color: black;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left:5vw ;
+        padding-right: 5vw;
+        padding-top: 1.5vw;
+        padding-bottom: 1.5vw;
+        border: none;
+        outline: none;
+        height: 4vw;
+        width: 16vw;
+        &:hover{
+            background-color: rgb(44, 43, 43);
+            cursor: pointer;
+            transition: all ease-in-out 200ms;
+        }
+       
+      }
+    }
+
+  }
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swiper-pagination-bullets {
+    display: none;
+}
+
+  .icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.4vw;
+    cursor: pointer;
+    position: absolute;
+    width: 60vw;
+    left: 16vw;
+   
+    top: 40vw;
+    z-index: 5000;
+
+    .left-icon {
+      font-size: 2vw;
+      &:hover {
+        color: gray;
+      }
+    }
+    .right-icon {
+      font-size: 2vw;
+      &:hover {
+        color: gray;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width:786px) {
+
+  .front {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+  
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+  
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+  
+      /* Center slide text vertically */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+  
+      .name-front {
+        position: absolute;
+        top: 60vw;
+        left: 3vw;
+        padding-left: 7vw;
+        padding-right: 7vw;
+        display: flex;
+        flex-direction: column;
+        gap: 10vw;
+  
+        .h1-front {
+          color: white;
+          text-align: start;
+          font-family: "Sedan", serif;
+          font-weight: 400;
+          font-style: normal;
+          font-size: 4.5vw;
+        }
+        button{
+          
+          background-color: black;
+          color: white;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding-left:5vw ;
+          padding-right: 5vw;
+          padding-top: 1.5vw;
+          padding-bottom: 1.5vw;
+          margin-left: 18vw;
+          margin-top: 5vw;
+          border: none;
+          outline: none;
+          height: 10vw;
+          width:30vw;
+          &:hover{
+              background-color: rgb(44, 43, 43);
+              cursor: pointer;
+              transition: all ease-in-out 200ms;
+          }
+         
+        }
+      }
+  
+    }
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .swiper-pagination-bullets {
+      display: none;
+  }
+  
+    .icon {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 1.4vw;
+      cursor: pointer;
+      position: absolute;
+      width: 60vw;
+      left: 16vw;
+     
+      top: 190vw;
+      z-index: 5000;
+  
+      .left-icon {
+        font-size: 9vw;
+        &:hover {
+          color: gray;
+        }
+      }
+      .right-icon {
+        font-size: 9vw;
+        &:hover {
+          color: gray;
+        }
+      }
+    }
+  }
+  
+
+
+
+}
+
